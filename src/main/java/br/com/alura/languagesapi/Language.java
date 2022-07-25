@@ -10,12 +10,12 @@ public class Language {
     private String id;    
     private String title;
     private String image;
-    private Integer ranking;
+    private String ranking;
 
     public Language() {
     }
 
-    public Language(String title, String image, Integer ranking) {
+    public Language(String title, String image, String ranking) {
         this.title = title;
         this.image = image;
         this.ranking = ranking;
@@ -31,7 +31,7 @@ public class Language {
     public String getImage() {
         return image;
     }
-    public Integer getRanking() {
+    public String getRanking() {
         return ranking;
     }
     
